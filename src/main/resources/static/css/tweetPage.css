@@ -1,0 +1,10 @@
+#tweet-replies-page {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#tweet-replies-page > .tweet{
+    width: 85%;
+    margin-top: 1rem;
+}

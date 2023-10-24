@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Twitter WannaBe</title>
+    <link rel="icon" type="image/x-icon" href="./assets/Twitter-logo.png">
+    <link rel="stylesheet" href="./css/tweetPage.css">
+    <link rel="stylesheet" href="./css/tweetsContent.css">
+    <link rel="stylesheet" href="./css/tweetInputSection.css">
+
+    <link rel="stylesheet" href="./css/loginPage.css">
+</head>
+<body>
+    <main>
+        <div id="tweets-section">
+            <div>
+                <div class="input-div">
+                    <img src="./assets/Twitter-logo.png" alt="Input left image">
+                    <textarea class="tweet-writing-input" placeholder="What are you thinking?" maxlength="280"></textarea>
+                </div>
+                <div id="btn-div">
+                    <button class="main-tweet-btn tweet-btn" >Tweet</button>
+                    <button class="main-tweet-btn tweet-btn" >See All posts</button>
+                </div>
+            </div>
+        </div>
+        <div id="tweet-replies-page" class="hidden">
+            <div class="tweet"></div>
+        </div>
+        <div id="login-page" class="hidden">
+            <img src="./assets/Twitter-logo.png" alt="Login main image" width="150px" height="120px">
+            <p id="login-title">Twitter WannaBe</p>
+            <form action="">
+                <div>
+                    <label>
+                        User
+                        <input class="login-input" type="text">
+                    </label>
+                    <label>
+                        Password
+                        <input class="login-input" type="password">
+                    </label>
+                </div>
+                <button id="login-btn" class="tweet-btn" type="submit">Login</button>
+            </form>
+            <p id="error-msg">UserName or Password incorrect D:</p>
+        </div>
+    </main>
+</body>
+</html>
