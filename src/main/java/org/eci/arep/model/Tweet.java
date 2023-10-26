@@ -1,10 +1,10 @@
 package org.eci.arep.model;
 
-public class Post {
+public class Tweet {
 
     private final String author, content;
 
-    public Post(String author, String content) {
+    public Tweet(String author, String content) {
         this.author = author;
         this.content = content;
     }

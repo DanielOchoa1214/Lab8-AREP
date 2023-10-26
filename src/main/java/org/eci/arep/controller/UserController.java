@@ -26,7 +26,6 @@ public class UserController {
     @GET
     @Produces(MediaType.APPLICATION_JSON)
     public Response getUser(@PathParam("username") String username){
-
         return Response.ok("Im aliveeee").build();
     }
 }
