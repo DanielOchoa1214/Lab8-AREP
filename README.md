@@ -35,11 +35,11 @@ mvn quarkus:dev
 
 Si todo salio bien, deberias ver en consola lo siguiente
 
-<img width="1575" alt="Screenshot 2023-10-30 at 11 31 22 AM" src="https://github.com/DanielOchoa1214/Lab8-AREP/assets/77862016/115832b6-f9da-4def-b3d0-9ba243e3148b">
+<img width="1540" alt="Screenshot 2023-10-31 at 1 44 47 PM" src="https://github.com/DanielOchoa1214/Lab8-AREP/assets/77862016/3342e761-d824-4d2a-9aae-df1a2c27007a">
 
 Luego abre el archivo login.html con tu navegador y deberias ver lo siguiente
 
-<img width="1680" alt="Screenshot 2023-10-30 at 11 32 30 AM" src="https://github.com/DanielOchoa1214/Lab8-AREP/assets/77862016/8f422422-71ee-4ded-a00a-bd60e51b70ef">
+<img width="462" alt="Screenshot 2023-10-31 at 1 45 07 PM" src="https://github.com/DanielOchoa1214/Lab8-AREP/assets/77862016/8b6473b5-37f4-4300-967f-3c9be1db4a4f">
 
 ## Corriendo los tests
 
