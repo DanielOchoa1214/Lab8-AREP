@@ -111,6 +111,8 @@ Mongo DB: La base de daatos montada en la nube de Mongo
 
 Y hay un videito para que me creas que lo desplegue en AWS, esta en el root del proyecto ;) (Era muy pesado para poner en el readme 😣)
 
+Por cuestiones de que AWS requiere certificados autorizados para usar cognito, se desplego localmente el redireccionamiento de cognito, es decir, la pagina de tweets. Esto se realizo de esta manera porque se necesita pedir a AWS certificados y estos se demoran en ser entregados, por esta misma cuestión decidimos hacer esa parte localmente y mostrar el funcionamiento de la aplicación total.
+
 ## Agradecimientos
 
 * A nuestro querido profesor de Arquitecturas empresariales Daniel Benavides
