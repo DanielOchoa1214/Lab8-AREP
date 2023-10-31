@@ -97,7 +97,7 @@ Para simular desde un mismo proyecto la arquitectura propuesta se separaron por 
 
 La arquitectura de este taller es presentada con el siguiente diagrama
 
-![photo1698684098](https://github.com/DanielOchoa1214/Lab8-AREP/assets/77862016/f24f3278-e4be-4cde-8a27-2a0f9a670f86)
+![photo1698684098](https://github.com/DanielOchoa1214/Lab8-AREP/assets/77862016/4255246e-8e8d-4eb7-95cd-71745b3ad459)
 
 En donde se tienen los siguientes componentes:
 
