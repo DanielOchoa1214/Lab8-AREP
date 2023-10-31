@@ -47,15 +47,15 @@ Luego abre el archivo login.html con tu navegador y deberias ver lo siguiente
 
 Para probar que el desarrollo de la aplicación fuera correcto sé probo cada funcionalidad en ella corriendo, para ello revisamos cada funcionalidad con la aplicacion desplegada en la nube de AWS, primero revisamos que los archivos fueran correctamente enviados con S3
 
-=========
+<img width="1677" alt="Screenshot 2023-10-31 at 1 28 02 PM" src="https://github.com/DanielOchoa1214/Lab8-AREP/assets/77862016/b462f10d-ea7e-4d2f-a095-65c57d01a69a">
 
 Luego probamos que el login funcionara correctamente con Cognito
 
-=======
+<img width="1373" alt="Screenshot 2023-10-31 at 1 32 15 PM" src="https://github.com/DanielOchoa1214/Lab8-AREP/assets/77862016/68d4b5a7-d9b1-4844-93a3-1993754e003a">
 
-Y por ultimo probamos que los Tweets se postearan correctamente desde diferentes cuentas, para hacerlo entramos con una, revisamos el historial con esa cuenta, luego entramos con otra y revisamos que el historial tubiera los 2 twweets desde diferentes cuentas
+Y por ultimo probamos que los Tweets se postearan correctamente
 
-=======
+<img width="1461" alt="Screenshot 2023-10-31 at 1 33 04 PM" src="https://github.com/DanielOchoa1214/Lab8-AREP/assets/77862016/1b1b957b-0d0c-42da-bfa0-566965351e33">
 
 ## Documentacion
 
