@@ -13,7 +13,7 @@
 
     <link rel="stylesheet" href="./css/loginPage.css">
 </head>
-<body>
+<body onload="app.init()">
     <main>
         <div id="tweets-section">
             <div>
@@ -29,24 +29,6 @@
         </div>
         <div id="tweet-replies-page">
             <div class="tweet"></div>
-        </div>
-        <div id="login-page" class="hidden">
-            <img src="./assets/Twitter-logo.png" alt="Login main image" width="150px" height="120px">
-            <p id="login-title">Twitter WannaBe</p>
-            <form action="">
-                <div>
-                    <label>
-                        User
-                        <input class="login-input" type="text">
-                    </label>
-                    <label>
-                        Password
-                        <input class="login-input" type="password">
-                    </label>
-                </div>
-                <button id="login-btn" class="tweet-btn" type="submit">Login</button>
-            </form>
-            <p id="error-msg">UserName or Password incorrect D:</p>
         </div>
     </main>
     <script src="./js/client.js"></script>

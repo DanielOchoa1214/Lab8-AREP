@@ -1,15 +1,12 @@
 let client = (function () { 
 
     let _publicFunctions = {};
-    let _server = "http://localhost:8080"
-
-    _publicFunctions.login = function () {  
-
-    };
+    let _stream_server = "http://54.152.139.1:8080";
+    let _tweet_server = "http://3.88.18.110:8080"
 
     _publicFunctions.tweet = function (author, content) {  
         return $.ajax({
-            url: `${_server}/v1/tweet`,
+            url: `${_tweet_server}/v1/tweet`,
             type: 'POST',
             data: JSON.stringify({
                 author: author,
@@ -21,7 +18,7 @@ let client = (function () {
 
     _publicFunctions.getAllTweets = function () {  
         return $.ajax({
-            url: `${_server}/v1/stream`,
+            url: `${_stream_server}/v1/stream`,
             type: 'GET',
         });
     };

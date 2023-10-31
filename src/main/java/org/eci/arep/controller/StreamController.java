@@ -16,6 +16,7 @@ public class StreamController {
     @Path("/")
     @Produces(MediaType.APPLICATION_JSON)
     public Response getTweets(){
+        System.out.println("HOLI");
         return Response.ok(service.getLastPosts()).build();
     }
 }
